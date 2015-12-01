@@ -14,7 +14,6 @@
 		C0B46C8F1C08C68600129F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B46C8E1C08C68600129F9F /* AppDelegate.swift */; };
 		C0B46C911C08C68600129F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B46C901C08C68600129F9F /* ViewController.swift */; };
 		C0B46C941C08C68600129F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B46C921C08C68600129F9F /* Main.storyboard */; };
-		C0B46C961C08C68600129F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B46C951C08C68600129F9F /* Assets.xcassets */; };
 		C0B46C991C08C68600129F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B46C971C08C68600129F9F /* LaunchScreen.storyboard */; };
 		C0B46CA81C08D06C00129F9F /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B46CA41C08D06C00129F9F /* NotoSans-Bold.ttf */; };
 		C0B46CA91C08D06C00129F9F /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0B46CA51C08D06C00129F9F /* NotoSans-BoldItalic.ttf */; };
@@ -24,6 +23,10 @@
 		C0B46CB01C08D39800129F9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B46CAF1C08D39800129F9F /* Constants.swift */; };
 		C0B46CB21C08D74800129F9F /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B46CB11C08D74800129F9F /* MaterialButton.swift */; };
 		C0B46CB41C08DAD200129F9F /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B46CB31C08DAD200129F9F /* MaterialTextField.swift */; };
+		C0DA69E11C0CA72000A990EB /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA69E01C0CA72000A990EB /* FeedVC.swift */; };
+		C0DA69E31C0CA80400A990EB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA69E21C0CA80400A990EB /* PostCell.swift */; };
+		C0DA69E51C0DB92900A990EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DA69E41C0DB92900A990EB /* Assets.xcassets */; };
+		C0DA69E71C0DBDE700A990EB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DA69E61C0DBDE700A990EB /* Post.swift */; };
 		D2EC1A8E3159BE113EA266E0 /* Pods_badrich_showcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4794F2CA235E4EC275B1E1 /* Pods_badrich_showcase.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +40,6 @@
 		C0B46C8E1C08C68600129F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B46C901C08C68600129F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C0B46C931C08C68600129F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0B46C951C08C68600129F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B46C981C08C68600129F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B46C9A1C08C68600129F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0B46CA41C08D06C00129F9F /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
@@ -48,6 +50,10 @@
 		C0B46CAF1C08D39800129F9F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C0B46CB11C08D74800129F9F /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		C0B46CB31C08DAD200129F9F /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		C0DA69E01C0CA72000A990EB /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		C0DA69E21C0CA80400A990EB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		C0DA69E41C0DB92900A990EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0DA69E61C0DBDE700A990EB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CA4794F2CA235E4EC275B1E1 /* Pods_badrich_showcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_badrich_showcase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED954F387AAE6D6C2ECEF4EB /* Pods-badrich-showcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-badrich-showcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-badrich-showcase/Pods-badrich-showcase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,9 +138,9 @@
 				C05A7CFB1C0C6B4600478B4D /* Frameworks */,
 				C0B46C8E1C08C68600129F9F /* AppDelegate.swift */,
 				C0B46C921C08C68600129F9F /* Main.storyboard */,
-				C0B46C951C08C68600129F9F /* Assets.xcassets */,
 				C0B46C971C08C68600129F9F /* LaunchScreen.storyboard */,
 				C0B46C9A1C08C68600129F9F /* Info.plist */,
+				C0DA69E41C0DB92900A990EB /* Assets.xcassets */,
 			);
 			path = "badrich-showcase";
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 		C0B46CA01C08D02B00129F9F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0DA69E61C0DBDE700A990EB /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -152,6 +159,7 @@
 				C0B46CAC1C08D34C00129F9F /* MaterialView.swift */,
 				C0B46CB11C08D74800129F9F /* MaterialButton.swift */,
 				C0B46CB31C08DAD200129F9F /* MaterialTextField.swift */,
+				C0DA69E21C0CA80400A990EB /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				C0B46C901C08C68600129F9F /* ViewController.swift */,
+				C0DA69E01C0CA72000A990EB /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -248,7 +257,7 @@
 				C0B46C991C08C68600129F9F /* LaunchScreen.storyboard in Resources */,
 				C0B46CA91C08D06C00129F9F /* NotoSans-BoldItalic.ttf in Resources */,
 				C0B46CAA1C08D06C00129F9F /* NotoSans-Italic.ttf in Resources */,
-				C0B46C961C08C68600129F9F /* Assets.xcassets in Resources */,
+				C0DA69E51C0DB92900A990EB /* Assets.xcassets in Resources */,
 				C0B46C941C08C68600129F9F /* Main.storyboard in Resources */,
 				C0B46CAB1C08D06C00129F9F /* NotoSans-Regular.ttf in Resources */,
 			);
@@ -313,9 +322,12 @@
 				C05A7D041C0C748F00478B4D /* DataService.swift in Sources */,
 				C0B46CAD1C08D34C00129F9F /* MaterialView.swift in Sources */,
 				C0B46C911C08C68600129F9F /* ViewController.swift in Sources */,
+				C0DA69E11C0CA72000A990EB /* FeedVC.swift in Sources */,
+				C0DA69E31C0CA80400A990EB /* PostCell.swift in Sources */,
 				C0B46C8F1C08C68600129F9F /* AppDelegate.swift in Sources */,
 				C0B46CB01C08D39800129F9F /* Constants.swift in Sources */,
 				C0B46CB21C08D74800129F9F /* MaterialButton.swift in Sources */,
+				C0DA69E71C0DBDE700A990EB /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
